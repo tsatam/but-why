@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "scripts": {
+    "build": "gradle build",
+    "start": "node out/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "kotlin-compiler": "^1.3.31"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "kotlin": "^1.3.31"
+  }
+}
